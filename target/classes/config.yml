@@ -1,0 +1,27 @@
+#Thanks for downloading the Timber-Plugin!
+
+
+timber:
+  #Activate the plugin
+  #Possibilities: (true/false)
+  #Standard: true
+  enable: true
+
+  #Activate that logs downward the broken Block are getting harvested
+  #Possibilities: (true/false)
+  #Standard: false
+  enable-downwards: false
+
+  #Regulate the logs that are getting harvested at once
+  #Possibilities: Positive Numbers (max. Integer Limit)
+  #Standard: 10
+  maxHeight: 10
+
+  #Max 5 Tools, if you want to register less, type in ""
+  #List with all Tools: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+  allowed-tools:
+    1: "DIAMOND_AXE"
+    2: "IRON_AXE"
+    3: "GOLD_AXE"
+    4: "STONE_AXE"
+    5: "WOOD_AXE"
