@@ -19,9 +19,22 @@ timber:
 
   #Max 5 Tools, if you want to register less, type in ""
   #List with all Tools: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+  #Standard "DIAMOND_AXE", "IRON_AXE", "GOLD_AXE", "STONE_AXE", "WOOD_AXE"
   allowed-tools:
-    1: "DIAMOND_AXE"
-    2: "IRON_AXE"
-    3: "GOLD_AXE"
-    4: "STONE_AXE"
-    5: "WOOD_AXE"
+    0: "DIAMOND_AXE"
+    1: "IRON_AXE"
+    2: "GOLD_AXE"
+    3: "STONE_AXE"
+    4: "WOOD_AXE"
+
+  #Set up the gamemodes in which you wanna fell trees
+  #Possibilities: "SURVIAVAL", "CREATIVE" ("ADVENTURE", "SPECTATOR")1
+  #Standrad: true, true
+  allowed-gamemodes:
+    0: "SURVIVAL"
+    1: "CREATIVE"
+
+  #When set to false the Plugin triggers if you're sneaking
+  #Possibilities: (true/false)
+  #Standard: true
+  disable-when-sneaking: true

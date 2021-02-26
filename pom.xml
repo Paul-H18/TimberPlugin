@@ -6,7 +6,7 @@
 
     <groupId>de.paul</groupId>
     <artifactId>TimberPlugin</artifactId>
-    <version>0.8-BETA</version>
+    <version>0.8.5-BETA</version>
 
     <properties>
         <!-- Project Properties -->
